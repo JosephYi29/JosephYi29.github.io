@@ -17,4 +17,5 @@ Rose quartz: #B2A3B5
 
 ## Github Pages Link
 https://josephyi29.github.io
+
 added an additional social media (instagram)
