@@ -4,9 +4,10 @@ services:
   nodejs:
     #fill out the configuration here
     image: node:10-alpine
-    build:
-      context: .
-      dockerfile: Dockerfile
+    #build:
+    #  context: .
+    #  dockerfile: Dockerfile
+    build: .
     container_name: my_website
     restart: unless-stopped
     ports:
@@ -36,7 +37,7 @@ volumes:
     driver_opts:
       type: none
       #fill out your absolute path to your folder here
-      device: /Users/joseph/Desktop/CMSC 389T/cmsc389T-web-template/nginx-conf
+      device: /Users/joseph/Desktop/CMSC 389T/cmsc389T-web-template
       o: bind
 
 networks:
