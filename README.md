@@ -13,3 +13,9 @@ Rose quartz: #B2A3B5
 
 ## CSS
 .img -> where you can adjust image size
+
+
+## Github Pages Link
+
+
+added an additional social media (instagram)
